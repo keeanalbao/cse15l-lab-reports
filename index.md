@@ -1,4 +1,4 @@
-Hello, world!
+This is the index file
 
 
 *Italics*
