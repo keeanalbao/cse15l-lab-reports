@@ -26,7 +26,8 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 In order to use Visual Studio Code or the terminal to connect to a remote computer over the Internet:
 * Install [Git for Windows](https://gitforwindows.org/)
 * Once installed, use the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use the newly-installed git bash in Visual Studio Code
-* Then, to use ssh, open a terminal in Visual Studio Code. (Ctrl + `, or use the Terminal → New Terminal menu option). Your command should look like this: `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
+* Then, to use ssh, open a new terminal in Visual Studio Code
+* After the $ sign, type the command `ssh cs15lsp23zz@ieng6.ucsd.edu` (the zz will be different and unique to you) 
 
 
 
