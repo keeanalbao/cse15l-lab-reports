@@ -59,6 +59,10 @@ To log out of the remote server in your terminal, you can use:
    * Ctrl-D
    * Run the command `exit`
 
+
+
+
+
 **You now know how to log into a course-specific account on ieng6!**
 
 
