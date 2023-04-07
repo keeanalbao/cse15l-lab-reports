@@ -24,7 +24,7 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 
 ## Step 3: Remotely Connect
 In order to use Visual Studio Code or the terminal to connect to a remote computer over the Internet:
-* Install git for Windows here: https://gitforwindows.org/
+* Install [Git for Windows](https://gitforwindows.org/)
 * Once installed, use the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use the newly-installed git bash in Visual Studio Code
 
 
