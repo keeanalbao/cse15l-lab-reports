@@ -16,7 +16,7 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 
 
 ## Step 2: Install Visual Studio Code
-* Go to the Visual Studio Code website [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs)
+* Go to the website [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs)
 * When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):
 
 ![vscode](https://user-images.githubusercontent.com/88350907/230518209-3cb4f5ad-89f8-4813-9d8b-59ac5ed7cc53.jpg)
@@ -46,21 +46,19 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 
 ## Step 4: Run Some Commands
 * Try running the commands `cd`, `ls`, `pwd`, `mkdir`, `cp`, and `cat`, a few times in different ways, both on your own computer and on the remote computer after ssh-ing
-* Here are a few examples of commands on the remote computer:
-
-![Remote Computer](https://user-images.githubusercontent.com/88350907/230546085-19d607c1-f9ff-47e1-856d-bb61189a68e9.jpg)
-
-* Here are a few examples of commands on your computer:
+* Here are a few examples of commands on your own computer:
 
 ![Personal Computer 1](https://user-images.githubusercontent.com/88350907/230546930-824b9df7-5650-4c1f-b301-16ce9e49e3ac.jpg)
 ![Personal Computer 2](https://user-images.githubusercontent.com/88350907/230548722-a75fc30a-295c-47b3-adc4-aaa10db09bf4.jpg)
 
+* Here are a few examples of commands on the remote computer:
+
+![Remote Computer](https://user-images.githubusercontent.com/88350907/230546085-19d607c1-f9ff-47e1-856d-bb61189a68e9.jpg)
+
+
 To log out of the remote server in your terminal, you can use:
    * Ctrl-D
    * Run the command `exit`
-
-
-
 
 
 **You now know how to log into a course-specific account on ieng6!**
