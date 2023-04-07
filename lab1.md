@@ -34,6 +34,10 @@ In order to use Visual Studio Code or the terminal to connect to a remote comput
   RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
   Are you sure you want to continue connecting (yes/no/[fingerprint])? 
   ```
+  This message is expected, so type yes and then press enter
+* Enter your new password when prompted
+* After you enter your password, you will now be on the remote server, and it should look something like this:
+  ![Remote Server](https://user-images.githubusercontent.com/88350907/230541840-7140c749-8b63-424e-bbe4-ab631fe17d45.jpg)
 
 
 ## Step 4: Run Some Commands
