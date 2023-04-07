@@ -33,7 +33,7 @@ In order to use Visual Studio Code or the terminal to connect to a remote comput
   The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
   RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
   Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-  ```
+ 
   This message is expected, so type yes and then press enter
   
 * Enter your new password when prompted
