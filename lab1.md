@@ -12,10 +12,13 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 * Click the link that says "I want to reset my course-specific account password"
 * Verify the Duo Authentication
 * Confirm your email address and click the link in your email that says "UC San Diego Password reset page"
-* Reset your password
+* Follow the steps to reset your password
 
 
 ## Step 2: Install Visual Studio Code
+* Go to the Visual Studio Code website https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs).
+* When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):
+![vscode](https://user-images.githubusercontent.com/88350907/230518209-3cb4f5ad-89f8-4813-9d8b-59ac5ed7cc53.jpg)
 
 
 ## Step 3: Remotely Connect
