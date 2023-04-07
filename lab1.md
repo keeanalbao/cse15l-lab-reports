@@ -45,7 +45,7 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 
 
 ## Step 4: Run Some Commands
-* Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your own computer and on the remote computer after ssh-ing
+* Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp` a few times in different ways, both on your own computer and on the remote computer after ssh-ing
 * Here are a few examples of commands on the remote computer:
 
 ![Remote Computer](https://user-images.githubusercontent.com/88350907/230546085-19d607c1-f9ff-47e1-856d-bb61189a68e9.jpg)
