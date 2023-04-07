@@ -53,5 +53,6 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 * Here are a few examples of commands on your computer:
 
 ![Personal Computer 1](https://user-images.githubusercontent.com/88350907/230546930-824b9df7-5650-4c1f-b301-16ce9e49e3ac.jpg)
+![Personal Computer 2](https://user-images.githubusercontent.com/88350907/230548722-a75fc30a-295c-47b3-adc4-aaa10db09bf4.jpg)
 
 
