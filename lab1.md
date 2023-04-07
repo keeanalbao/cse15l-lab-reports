@@ -16,7 +16,7 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 
 
 ## Step 2: Install Visual Studio Code
-* Go to the website [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs)
+* Go to the website [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. There are versions for all the major operating systems, like macOS, Windows, and Linux
 * When it is installed, you should be able to open a window that looks like this (it might have different colors, or a different menu bar, depending on your system and settings):
 
 ![vscode](https://user-images.githubusercontent.com/88350907/230518209-3cb4f5ad-89f8-4813-9d8b-59ac5ed7cc53.jpg)
@@ -25,8 +25,8 @@ This is a tutorial of how to log into your course-specific account on ieng6. To 
 ## Step 3: Remotely Connect
 In order to use Visual Studio Code or the terminal to connect to a remote computer over the Internet:
 * Install [Git for Windows](https://gitforwindows.org/)
-* Once installed, use the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use the newly-installed git bash in Visual Studio Code
-* Then, to use ssh, open a new terminal in Visual Studio Code
+* Once installed, use the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your default terminal to use git bash in Visual Studio Code
+* Next, open a new terminal in Visual Studio Code
 * After the $ sign, type the command `ssh cs15lsp23zz@ieng6.ucsd.edu` (the zz will be different and unique to you) 
 * If this is the first time you've connected to this server, you will probably get a message like this: 
   ```
@@ -41,11 +41,11 @@ In order to use Visual Studio Code or the terminal to connect to a remote comput
 
   ![Remote Server](https://user-images.githubusercontent.com/88350907/230541840-7140c749-8b63-424e-bbe4-ab631fe17d45.jpg)
 
-Your terminal is now connected to a computer in the CSE basement, and any commands you run will run on that computer. We call your computer the client and the computer in the basement the server based on how you are connected.
+Your terminal is now connected to a computer in the CSE basement, and any commands you run will run on that computer. We call your computer the *client* and the computer in the basement the *server*.
 
 
 ## Step 4: Run Some Commands
-* Try running the commands `cd`, `ls`, `pwd`, `mkdir`, `cp`, and `cat`, a few times in different ways, both on your own computer and on the remote computer after ssh-ing
+* Try running the commands `cd`, `ls`, `pwd`, `mkdir`, `cp`, and `cat`, both on your own computer and on the remote computer after ssh-ing
 * Here are a few examples of commands on your own computer:
 
 ![Personal Computer 1](https://user-images.githubusercontent.com/88350907/230546930-824b9df7-5650-4c1f-b301-16ce9e49e3ac.jpg)
@@ -56,7 +56,7 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 ![Remote Computer](https://user-images.githubusercontent.com/88350907/230546085-19d607c1-f9ff-47e1-856d-bb61189a68e9.jpg)
 
 
-To log out of the remote server in your terminal, you can use:
+To log out of the remote server in your terminal, you can use either of these:
    * Ctrl-D
    * Run the command `exit`
 
