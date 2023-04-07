@@ -41,5 +41,7 @@ In order to use Visual Studio Code or the terminal to connect to a remote comput
 
   ![Remote Server](https://user-images.githubusercontent.com/88350907/230541840-7140c749-8b63-424e-bbe4-ab631fe17d45.jpg)
 
+Your terminal is now connected to a computer in the CSE basement, and any commands you run will run on that computer. We call your computer the client and the computer in the basement the server based on how you are connected.
+
 
 ## Step 4: Run Some Commands
