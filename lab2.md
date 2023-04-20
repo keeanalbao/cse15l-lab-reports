@@ -48,9 +48,9 @@ class StringServer {
 }
 ```
 
-![Image](<img width="359" alt="1" src="https://user-images.githubusercontent.com/88350907/233470776-6bbc839b-704c-4680-85a3-d9959be675ef.png">)
+<img width="359" alt="1" src="https://user-images.githubusercontent.com/88350907/233470776-6bbc839b-704c-4680-85a3-d9959be675ef.png">
 
-![Image](<img width="419" alt="2" src="https://user-images.githubusercontent.com/88350907/233470828-e61c4309-c91a-4bbe-a501-315f86b60c75.png">)
+<img width="419" alt="2" src="https://user-images.githubusercontent.com/88350907/233470828-e61c4309-c91a-4bbe-a501-315f86b60c75.png">
 
 
 ## Part 2
