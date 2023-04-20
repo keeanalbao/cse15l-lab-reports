@@ -11,19 +11,26 @@ class Handler implements URLHandler {
     String input;
 
     public String handleRequest(URI url) {
-        System.out.println(url);
         
         if (url.getPath().equals("/")) {
+            return "This is server 4000";
+        }
+
+        else {
             if (url.getPath().contains("/add-message")) {
+                System.out.println("Path: " + url.getPath());
+
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-                    input = String.parseString(parameters[1]);
-                    return input;
+
+                    input = parameters[1];
+
+                    return String.format("%s", input);
                 }
             }
-            
+
             return "404 Not Found!";
-        }
+        } 
     }
 }
 
