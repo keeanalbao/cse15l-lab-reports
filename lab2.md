@@ -8,12 +8,12 @@ import java.net.URI;
 
 class Handler implements URLHandler {
 
-    String input;
+    String input = "";
 
     public String handleRequest(URI url) {
         
         if (url.getPath().equals("/")) {
-            return "This is a server";
+            return "This is server 4000";
         }
 
         else {
@@ -23,7 +23,7 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
 
-                    input = parameters[1];
+                    input += "\n" + parameters[1];
 
                     return String.format("%s", input);
                 }
