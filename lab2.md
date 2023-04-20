@@ -13,7 +13,7 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         
         if (url.getPath().equals("/")) {
-            return "This is server 4000";
+            return "This is a server";
         }
 
         else {
