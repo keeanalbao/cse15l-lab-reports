@@ -56,6 +56,8 @@ class StringServer {
 
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233803970-bcb859d6-88f6-45e2-ade0-8d0e2f08bd99.png">
 
+For this screenshot, the program enters the first else statement in my code (since the URL path isn't just /), and then enters the `if (url.getPath().contains("/add-message"))` statement because the URL path contains "/add-message".
+
 <img width="365" alt="3" src="https://user-images.githubusercontent.com/88350907/233803976-b70dabf5-6d91-4bf5-b18d-816435e455b5.png">
 
 
