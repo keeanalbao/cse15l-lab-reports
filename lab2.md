@@ -77,14 +77,23 @@ In this second screenshot, all the same things are happening as the first one, b
 
 
 - Unfixed bug:
-
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
 
 - Fixed code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
 
-    for(int i = 0; i < arr.length; i++) {
+    for(int i = 0; i < arr.length; i += 1) {
         newArray[arr.length - 1 - i] = arr[i];
     }
 
