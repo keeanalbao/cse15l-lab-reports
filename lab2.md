@@ -58,7 +58,7 @@ For this screenshot, the program enters the first else statement in my code (sin
 
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233803970-bcb859d6-88f6-45e2-ade0-8d0e2f08bd99.png">
 
-In this second screenshot, all the same things are happening as the first one, but instead of entering `if(input == "")`, the code enters the corresponding else statement because the value of input is now "Hello", not "". In this else statement, input is updated to be a new line (`\n`) plus the second index of the parameters array (now "How are you"). Input is then returned.
+In this second screenshot, all the same things are happening as the first one, but instead of entering `if(input == "")`, the code enters the corresponding else statement because the value of input is now "Hello", not `""`. In this else statement, input is updated to be a new line (`\n`) plus the second index of the parameters array (now "How are you"). Input is then returned.
 
 <img width="365" alt="3" src="https://user-images.githubusercontent.com/88350907/233803976-b70dabf5-6d91-4bf5-b18d-816435e455b5.png">
 
