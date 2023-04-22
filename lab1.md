@@ -53,19 +53,20 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
     * `cp`(**Copy Files**): Create a copy of the given files
     * `cat`(**Concatenate**): Print the contents of one or more files given by the path
 
-* Here are a few examples of commands on your own computer:
+* Here are a few examples of commands ran on your own computer:
 
 <img width="835" alt="1" src="https://user-images.githubusercontent.com/88350907/233799302-6f5a22c0-987a-46a9-a0d6-7a93f8b43cbc.png">
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233799305-739bf670-9cb4-4b89-865a-38544c6abc17.png">
 
 In these screenshots, I listed out the contents of my home directory (/c/Users/keean) and then changed my directory to the Downloads folder and listed out the contents of that folder. I then made a new folder in Downloads called "CSE 15L" and changed to that directory. Next, I printed out the working directory (/c/Users/keean/Downloads/CSE 15L), and then moved back up one directory to Downloads and copied file.txt into CSE 15L. Finally, I switched back to CSE 15L, listed the files, printed out the contents of file.txt, and did a few more list commands.
 
-* Here are a few examples of commands on the remote computer:
+* Here are a few examples of commands ran on the remote computer:
 
-![Remote Computer]()
+<img width="516" alt="1" src="https://user-images.githubusercontent.com/88350907/233803070-58f90f66-7a63-4198-8e7f-e5800392057e.png">
 
+In these screenshots, 
 
-To log out of the remote server in your terminal, you can use either of these:
+* To log out of the remote server in your terminal, you can use either of these:
    * Ctrl-D
    * Run the command `exit`
 
