@@ -64,7 +64,7 @@ In these screenshots, I listed out the contents of my home directory (/c/Users/k
 
 <img width="516" alt="1" src="https://user-images.githubusercontent.com/88350907/233803070-58f90f66-7a63-4198-8e7f-e5800392057e.png">
 
-In these screenshots, 
+In this screenshot, I first listed the contents of my current working directory, and then printed out the contents of hello.txt. I then printed my current working directory (/home/linux/ieng6/cs15lsp23/cs15lsp23ln), and proceeded to make a new directory in it called MyFolder. I listed out my current working directory again to show that MyFolder was in there, and then copied hello.txt over to MyFolder. I then did a few list commands in MyFolder before going back up one directory and printing out the contents of hello.txt again, but instead by using the entire path (/home/linux/ieng6/cs15lsp23/cs15lsp23ln/MyFolder/hello.txt).
 
 * To log out of the remote server in your terminal, you can use either of these:
    * Ctrl-D
