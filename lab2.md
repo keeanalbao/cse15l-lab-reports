@@ -65,26 +65,32 @@ In this second screenshot, all the same things are happening as the first one, b
 *It is important to note that my code implements the URLHandler interface and imports the URI class, which are where all the methods used come from. Also, it's crucial to point out that it is the StringServer main method that starts the server by checking the port number after running the code.*
 
 ## Part 2: Bugs
-*For this section, I decided to talk about the bug in the method in the ArrayExamples.java file.*
+*For this section, I decided to talk about the bug in the `reversed(int[] arr)` method in the ArrayExamples.java file.*
 
-Failure-inducing input:
----
-
-
-Input that doesn't induce a failure:
----
+- Failure-inducing input:
 
 
-Symptom of the bug:
----
+- Input that doesn't induce a failure:
 
 
-The bug:
----
-    - Unfixed:
+- Symptom of the bug:
 
 
-    - Fixed:
+- Unfixed bug:
+
+
+- Fixed code:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+
+    for(int i = 0; i < arr.length; i++) {
+        newArray[arr.length - 1 - i] = arr[i];
+    }
+
+    return newArray;
+}
+```
 
 ## Part 3: Something I've Learned
 Something I've learned in this class from the past few weeks is actually what half this lab report is about, creating a basic web server. Prior to this class I had no idea what ports were, what the URI class and URLHandler interface were, and that you can use built-in Java libraries to create these servers. Now I have a basic understanding of how to use all these things to create my own simple server.
