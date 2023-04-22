@@ -55,8 +55,8 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 
 * Here are a few examples of commands on your own computer:
 
-![Personal Computer 1](<img width="835" alt="1" src="https://user-images.githubusercontent.com/88350907/233799302-6f5a22c0-987a-46a9-a0d6-7a93f8b43cbc.png">)
-![Personal Computer 2](<img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233799305-739bf670-9cb4-4b89-865a-38544c6abc17.png">)
+<img width="835" alt="1" src="https://user-images.githubusercontent.com/88350907/233799302-6f5a22c0-987a-46a9-a0d6-7a93f8b43cbc.png">
+<img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233799305-739bf670-9cb4-4b89-865a-38544c6abc17.png">
 
 * Here are a few examples of commands on the remote computer:
 
