@@ -58,6 +58,8 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 <img width="835" alt="1" src="https://user-images.githubusercontent.com/88350907/233799302-6f5a22c0-987a-46a9-a0d6-7a93f8b43cbc.png">
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233799305-739bf670-9cb4-4b89-865a-38544c6abc17.png">
 
+In these screenshots, I listed out the contents of my home directory (/c/Users/keean) and then changed my directory to the Downloads folder and listed out the contents of that folder. I then made a new folder in Downloads called "CSE 15L" and changed to that directory. Next, I printed out the working directory (/c/Users/keean/Downloads/CSE 15L), and then moved back up one directory to Downloads and copied file.txt into CSE 15L. Finally, I switched back to CSE 15L, listed the files, printed out the contents of file.txt, and did a few more list commands.
+
 * Here are a few examples of commands on the remote computer:
 
 ![Remote Computer]()
