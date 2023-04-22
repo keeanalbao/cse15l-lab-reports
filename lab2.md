@@ -54,9 +54,6 @@ class StringServer {
 ```
 <img width="490" alt="4" src="https://user-images.githubusercontent.com/88350907/233804050-7250493b-a2eb-420c-9c51-9f028d28faf7.png">
 
-
-<img width="195" alt="1" src="https://user-images.githubusercontent.com/88350907/233803963-0fb9f831-c757-43be-acd4-30e01dc25c26.png">
-
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233803970-bcb859d6-88f6-45e2-ade0-8d0e2f08bd99.png">
 
 <img width="365" alt="3" src="https://user-images.githubusercontent.com/88350907/233803976-b70dabf5-6d91-4bf5-b18d-816435e455b5.png">
