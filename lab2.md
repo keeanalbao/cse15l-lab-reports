@@ -62,7 +62,7 @@ In this second screenshot, all the same things are happening as the first one, b
 
 <img width="365" alt="3" src="https://user-images.githubusercontent.com/88350907/233803976-b70dabf5-6d91-4bf5-b18d-816435e455b5.png">
 
-*It is important to note that my code implements the URLHandler interface and imports the URI class, which are where all the methods used come from. Also, it's crucial to point out that it is the StringServer main method that starts the server by checking the port number after running the code.
+*It is important to note that my code implements the URLHandler interface and imports the URI class, which are where all the methods used come from. Also, it's crucial to point out that it is the StringServer main method that starts the server by checking the port number after running the code.*
 
 ## Part 2: Bugs
 
