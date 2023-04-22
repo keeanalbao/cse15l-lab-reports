@@ -54,7 +54,7 @@ class StringServer {
 ```
 <img width="490" alt="4" src="https://user-images.githubusercontent.com/88350907/233804050-7250493b-a2eb-420c-9c51-9f028d28faf7.png">
 
-For this screenshot, the program enters the first else statement in my code (since the URL path isn't just /), and then enters the `if (url.getPath().contains("/add-message"))` statement because the URL gets the current path (getPath() method from URI class) and it contains "/add-message". Next, the current path (/add-message) is printed in the terminal and a string array called parameters is created that splits the indices of the array at each "=" sign after the "?" in the URL. This "?" is retrieved by using the getQuery() method (from URI class)
+For this screenshot, the program enters the first else statement in my code (since the URL path isn't just /), and then enters the `if (url.getPath().contains("/add-message"))` statement because the URL gets the current path (getPath() method from URI class) and it contains "/add-message". Next, the current path (/add-message) is printed in the terminal and a string array called parameters is created that splits the indices of the array at each `=` sign after the `?` in the URL. This `?` is retrieved by using the getQuery() method (from URI class). Next, the code enters the `if (parameters[0].equals("s"))` statement because the first index of the parameters array after the `?` is `s`. Finally, the `if(input == "")` statement is entered because the current value of the input variable is `""`, input is then updated to be the second index of the parameters array ("Hello" in this case), and then it is returned.
 <img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233803970-bcb859d6-88f6-45e2-ade0-8d0e2f08bd99.png">
 
 
