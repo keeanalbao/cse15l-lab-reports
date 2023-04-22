@@ -1,7 +1,7 @@
 # Lab Report 2
 
 
-## Part 1
+## Part 1: StringServer
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -62,7 +62,7 @@ class StringServer {
 <img width="365" alt="3" src="https://user-images.githubusercontent.com/88350907/233803976-b70dabf5-6d91-4bf5-b18d-816435e455b5.png">
 
 
-## Part 2
+## Part 2: Bugs
 
 
-## Part 3
+## Part 3: Something I've Learned
