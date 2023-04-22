@@ -45,7 +45,13 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 
 
 ## Step 4: Run Some Commands
-* Try running the commands `cd`, `ls`, `pwd`, `mkdir`, `cp`, and `cat`, both on your own computer and on the remote computer after ssh-ing
+* Try running the following commands both on your own computer and on the remote computer after ssh-ing:
+* `cd`: **Change Directory
+* `ls`: **List Files
+* `pwd`: **Print Working Directory
+* `mkdir`: **Make Directory
+* `cp`: **Copy Files
+* `cat`: **Concatenate
 * Here are a few examples of commands on your own computer:
 
 ![Personal Computer 1](https://user-images.githubusercontent.com/88350907/230546930-824b9df7-5650-4c1f-b301-16ce9e49e3ac.jpg)
