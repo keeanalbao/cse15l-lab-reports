@@ -55,12 +55,12 @@ Your terminal is now connected to a computer in the CSE basement, and any comman
 
 * Here are a few examples of commands on your own computer:
 
-![Personal Computer 1](https://user-images.githubusercontent.com/88350907/230546930-824b9df7-5650-4c1f-b301-16ce9e49e3ac.jpg)
-![Personal Computer 2](https://user-images.githubusercontent.com/88350907/230548722-a75fc30a-295c-47b3-adc4-aaa10db09bf4.jpg)
+![Personal Computer 1](<img width="835" alt="1" src="https://user-images.githubusercontent.com/88350907/233799302-6f5a22c0-987a-46a9-a0d6-7a93f8b43cbc.png">)
+![Personal Computer 2](<img width="299" alt="2" src="https://user-images.githubusercontent.com/88350907/233799305-739bf670-9cb4-4b89-865a-38544c6abc17.png">)
 
 * Here are a few examples of commands on the remote computer:
 
-![Remote Computer](https://user-images.githubusercontent.com/88350907/230546085-19d607c1-f9ff-47e1-856d-bb61189a68e9.jpg)
+![Remote Computer]()
 
 
 To log out of the remote server in your terminal, you can use either of these:
