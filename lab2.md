@@ -87,7 +87,7 @@ static int[] reversed(int[] arr) {
     return arr;
 }
 ```
-The bug here is that inside the for loop, it is setting the `newArray` values to `arr` instead of setting the `arr` values to `newArray`. Since `newArray` is empty, it is setting each element in `arr` to 0. So when the method returns `arr`, it returns an empty array.
+The bug here is that inside the for loop, it is setting the values of `arr` to those of `newArray` instead of setting the values of `newArray` to those of `arr`. Since `newArray` is empty, it is setting each element in `arr` to 0. So when the method returns `arr`, it returns an empty array.
 
 - Fixed code:
 ```
@@ -100,9 +100,9 @@ static int[] reversed(int[] arr) {
 
     return newArray;
 }
-
-The code now sets the `arr` values to `newArray` (in reverse order of course), and returns `newArray`.
 ```
+The code now sets the `arr` values to `newArray` (in reverse order of course), and returns `newArray`.
+
 
 ## Part 3: Something I've Learned
 Something I've learned in this class from the past few weeks is actually what half this lab report is about, creating a basic web server. Prior to this class I had no idea what ports were, what the URI class and URLHandler interface were, and that you can use built-in Java libraries to create these servers. Now I have a basic understanding of how to use all these things to create my own simple server.
