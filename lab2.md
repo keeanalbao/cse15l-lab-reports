@@ -65,7 +65,7 @@ In this second screenshot, all the same things are happening as the first one, b
 *It is important to note that my code implements the URLHandler interface and imports the URI class, which are where all the methods used come from. Also, it's crucial to point out that it is the StringServer main method that starts the server by checking the port number after running the code.*
 
 ## Part 2: Bugs
-*For this section, I decided to talk about the bug in the `reversed(int[] arr)` method in the ArrayExamples.java file.*
+*For this section, I decided to talk about the bug in the `reversed(int[] arr)` method in the ArrayExamples.java file. This method should return a new array with all the elements of a given input array in reverse order.*
 
 - Failure-inducing input:
 
@@ -82,9 +82,9 @@ static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     
     for(int i = 0; i < arr.length; i += 1) {
-        arr[i] = newArray[arr.length - i - 1];
+        arr[i] = newArray[arr.length - i - 1]; // bug
     }
-    return arr;
+    return arr; // bug
 }
 ```
 The bug here is that inside the for loop, it is setting the values of `arr` to those of `newArray` instead of setting the values of `newArray` to those of `arr`. Since `newArray` is empty, it is setting each element in `arr` to 0. So when the method returns `arr`, it returns an empty array.
@@ -95,10 +95,10 @@ static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
 
     for(int i = 0; i < arr.length; i += 1) {
-        newArray[arr.length - 1 - i] = arr[i];
+        newArray[arr.length - 1 - i] = arr[i]; // fixed this line
     }
 
-    return newArray;
+    return newArray; // fixed this line
 }
 ```
 The code now sets the `arr` values to `newArray` (in reverse order of course), and returns `newArray`.
