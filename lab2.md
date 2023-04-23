@@ -121,6 +121,8 @@ static int[] reversed(int[] arr) {
 ```
 The code now sets the `arr` values to `newArray` (in reverse order of course), and returns `newArray`.
 
+<img width="493" alt="3" src="https://user-images.githubusercontent.com/88350907/233814018-fc4cd2f0-2e96-42ae-8329-660cb12a2059.png">
+
 
 ## Part 3: Something I've Learned
 Something I've learned in this class from the past few weeks is actually what half this lab report is about, creating a basic web server. Prior to this class I had no idea what ports were, what the URI class and URLHandler interface were, and that you can use built-in Java libraries to create these servers. Now I have a basic understanding of how to use all these things to create my own simple server.
