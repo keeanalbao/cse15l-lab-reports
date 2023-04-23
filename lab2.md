@@ -68,15 +68,29 @@ In this second screenshot, all the same things are happening as the first one, b
 *For this section, I decided to talk about the bug in the `reversed(int[] arr)` method in the ArrayExamples.java file. This method should return a new array with all the elements of a given input array in reverse order.*
 
 - Failure-inducing input:
+```
+@Test
+public void testReversed() {
+    int[] input1 = { 1, 2, 3 };
+    assertArrayEquals(new int[]{ 3, 2, 1 }, ArrayExamples.reversed(input1));
+}
+```
 
-
-- Input that doesn't induce a failure:
-
+- Non-failure-inducing input:
+```
+@Test
+public void testReversed() {
+    int[] input1 = { 0, 0, 0 };
+    assertArrayEquals(new int[]{ 0, 0, 0 }, ArrayExamples.reversed(input1));
+}
+```
 
 - Symptom of the bug:
+Failure-inducing input: <img width="664" alt="1" src="https://user-images.githubusercontent.com/88350907/233813857-15bf724c-2088-45aa-b634-b297ee1c402c.png">
+Non-failure-inducing input: <img width="498" alt="2" src="https://user-images.githubusercontent.com/88350907/233813860-ff959a3e-72f1-4eaa-aad8-d6b50da5f9b9.png">
 
 
-- Unfixed bug:
+- Unfixed code (bugs):
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -95,7 +109,7 @@ static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
 
     for(int i = 0; i < arr.length; i += 1) {
-        newArray[arr.length - 1 - i] = arr[i]; // fixed this line
+        newArray[arr.length - i - 1] = arr[i]; // fixed this line
     }
 
     return newArray; // fixed this line
