@@ -86,8 +86,12 @@ public void testReversed() {
 ```
 
 - Symptom of the bug:
-Failure-inducing input: <img width="664" alt="1" src="https://user-images.githubusercontent.com/88350907/233813857-15bf724c-2088-45aa-b634-b297ee1c402c.png">
-Non-failure-inducing input: <img width="498" alt="2" src="https://user-images.githubusercontent.com/88350907/233813860-ff959a3e-72f1-4eaa-aad8-d6b50da5f9b9.png">
+
+Failure-inducing input: 
+<img width="664" alt="1" src="https://user-images.githubusercontent.com/88350907/233813857-15bf724c-2088-45aa-b634-b297ee1c402c.png">
+
+Non-failure-inducing input: 
+<img width="498" alt="2" src="https://user-images.githubusercontent.com/88350907/233813860-ff959a3e-72f1-4eaa-aad8-d6b50da5f9b9.png">
 
 
 - Unfixed code (bugs):
