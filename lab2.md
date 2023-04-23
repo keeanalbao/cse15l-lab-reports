@@ -87,6 +87,7 @@ static int[] reversed(int[] arr) {
     return arr;
 }
 ```
+The bug here is that inside the for loop, it is setting the `newArray` values to `arr` instead of setting the `arr` values to `newArray`. Since `newArray` is empty, it is setting each element in `arr` to 0. So when the method returns `arr`, it returns an empty array.
 
 - Fixed code:
 ```
@@ -99,6 +100,8 @@ static int[] reversed(int[] arr) {
 
     return newArray;
 }
+
+The code now sets the `arr` values to `newArray` (in reverse order of course), and returns `newArray`.
 ```
 
 ## Part 3: Something I've Learned
