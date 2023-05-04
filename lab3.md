@@ -1,3 +1,3 @@
 # Lab Report 3
 
-## Researching Commands
+## Researching Commands: `find`
