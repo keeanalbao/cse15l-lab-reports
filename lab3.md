@@ -5,6 +5,7 @@
 ### Command-Line Option 1: `-type`
 ---
 The `-type` command allows the user to search for files by type. (Source: ChatGPT) 
+
 ![Screenshot 2023-05-04 153354](https://user-images.githubusercontent.com/88350907/236343919-5749850e-1456-4bfc-885c-5fe00e9677cf.jpg)
 
 In this first image, I searched for all the file types (`-type f`) in the directory I gave.
