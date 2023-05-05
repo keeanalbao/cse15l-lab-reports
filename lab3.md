@@ -1,6 +1,6 @@
 # Lab Report 3
 
-## Researching The `find` Command
+## Researching the `find` Command
 
 ###  `-type` Command-Line Option
 ---
