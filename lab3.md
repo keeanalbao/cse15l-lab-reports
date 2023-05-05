@@ -32,7 +32,7 @@ In this first image, I searched for all files with a size of exactly 2 bytes.
 
 ![Screenshot 2023-05-04 225157](https://user-images.githubusercontent.com/88350907/236385880-ee0d8dde-9d24-4a06-af5d-c04a725f850c.jpg)
 
-In this second image, I searched for all files with a size of less than 10 kilobytes.
+In this second image, I searched for all files with a size of less than 3 kilobytes.
 
 ![Screenshot 2023-05-04 225218](https://user-images.githubusercontent.com/88350907/236385925-7f31786a-9c49-45d4-889b-8e9c119fa3d1.jpg)
 
