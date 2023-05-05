@@ -14,14 +14,14 @@ In this second image, I searched for all the directory types (`-type d`) in the 
 
 ![Screenshot 2023-05-04 153423](https://user-images.githubusercontent.com/88350907/236343931-fde871a1-fdad-44ed-8711-e38ae0860661.jpg)
 
-(Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash")
+(Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash")
 
 
 ### `-mtime` Command-Line Option
 ---
 The `-mtime` command allows the user to search for files by modification time.
 
-(Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
+(Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
 
 
 ### `-size` Command-Line Option
@@ -36,7 +36,7 @@ In this second image, I searched for all files with a size of less than 3 kiloby
 
 ![Screenshot 2023-05-04 225218](https://user-images.githubusercontent.com/88350907/236385925-7f31786a-9c49-45d4-889b-8e9c119fa3d1.jpg)
 
-(Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
+(Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
 
 
 ### `-delete` Command-Line Option
@@ -51,4 +51,4 @@ In this second image, I searched for all the files that started with `pmed` with
 
 <img width="866" alt="Screenshot 2023-05-05 003921" src="https://user-images.githubusercontent.com/88350907/236402053-fec07291-be04-4da0-961d-af57462a5c91.png">
 
-(Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
+(Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
