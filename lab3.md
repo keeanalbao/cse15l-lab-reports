@@ -17,9 +17,17 @@ In this second image, I searched for all the directory types (`-type d`) in the 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash")
 
 
-### `-mtime` Command-Line Option
+### `-maxdepth` Command-Line Option
 ---
-The `-mtime` command allows the user to search for files by modification time.
+The `-maxdepth` command allows the user to limit the depth of the search.
+
+In this first image, I only searched for the directories that had a max depth of 2 relative to `stringsearch`.
+
+<img width="348" alt="Screenshot 2023-05-05 011215" src="https://user-images.githubusercontent.com/88350907/236408386-e0f9329d-bbc0-453a-b436-2006e21ffa23.png">
+
+In this second image, I only searched for the text files that had a max depth of 3 relative to `stringsearch`.
+
+<img width="431" alt="Screenshot 2023-05-05 011241" src="https://user-images.githubusercontent.com/88350907/236408424-cf5dd454-9e1a-4f3d-a31a-515160a68241.png">
 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
 
