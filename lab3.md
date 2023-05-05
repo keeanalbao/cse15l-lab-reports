@@ -28,6 +28,15 @@ The `-mtime` command allows the user to search for files by modification time.
 ---
 The `-size` command allows the user to search for files by size.
 
+In this first image, I 
+
+![Screenshot 2023-05-04 223438](https://user-images.githubusercontent.com/88350907/236385458-92bf07a0-1eec-43c0-93b9-41f4fe8f2a47.jpg)
+
+In this second image, I
+
+![Screenshot 2023-05-04 224752](https://user-images.githubusercontent.com/88350907/236385476-bee63f58-29c2-4837-8d5e-8e09a553b203.jpg)
+
+
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
 
 
