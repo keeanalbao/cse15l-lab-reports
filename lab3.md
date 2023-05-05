@@ -43,4 +43,12 @@ In this second image, I searched for all files with a size of less than 3 kiloby
 ---
 The `-delete` command allows the user to delete all files or directories that match the search criteria.
 
+In this first image,
+
+<img width="419" alt="Screenshot 2023-05-05 003427" src="https://user-images.githubusercontent.com/88350907/236401994-a6087b0e-91dd-4992-a5bd-b1fdfd26a117.png">
+
+In this second image,
+
+<img width="866" alt="Screenshot 2023-05-05 003921" src="https://user-images.githubusercontent.com/88350907/236402053-fec07291-be04-4da0-961d-af57462a5c91.png">
+
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
