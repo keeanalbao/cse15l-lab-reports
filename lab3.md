@@ -1,8 +1,8 @@
 # Lab Report 3
 
-## Researching Commands: `find`
+## Researching The `find` Command
 
-### Command-Line Option 1: `-type`
+###  `-type` Command-Line Option
 ---
 The `-type` command allows the user to search for files by type.
 
@@ -17,14 +17,14 @@ In this second image, I searched for all the directory types (`-type d`) in the 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash")
 
 
-### Command-Line Option 2: `-mtime`
+### `-mtime` Command-Line Option
 ---
 The `-mtime` command allows the user to search for files by modification time.
 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
 
 
-### Command-Line Option 3: `-size`
+### `-size` Command-Line Option
 ---
 The `-size` command allows the user to search for files by size.
 
@@ -39,7 +39,7 @@ In this second image, I searched for all files with a size of less than 10 kilob
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command find in bash") 
 
 
-### Command-Line Option 4: `-delete`
+### `-delete` Command-Line Option
 ---
 The `-delete` command allows the user to delete all files or directories that match the search criteria.
 
