@@ -65,11 +65,11 @@ In this first image, I searched for all the text files within the `biomed` direc
 
 In this second image, I searched for all the files that started with `pmed` within the `plos` directory and deleted them.
 
-Before:
+*Before:*
 
 <img width="830" alt="Screenshot 2023-05-06 115245" src="https://user-images.githubusercontent.com/88350907/236641732-1669eb57-eb3b-43bd-a086-7ba6fc58be74.png">
 
-After:
+*After:*
 
 <img width="866" alt="Screenshot 2023-05-05 003921" src="https://user-images.githubusercontent.com/88350907/236402053-fec07291-be04-4da0-961d-af57462a5c91.png">
 
