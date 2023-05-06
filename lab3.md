@@ -1,10 +1,12 @@
 # Lab Report 3
 
-## Researching the `find` Command
+# Researching the `find` Command
 
-###  `-type` Command-Line Option
----
-The `-type` command allows the user to search for files by type.
+##  `-type` Command-Line Option
+
+The `-type` command allows the user to search for files by type. 
+
+This is useful because it allows the user to perform actions within their desired directory on just the types they specify. 
 
 In this first image, I searched for all the file types (`-type f`) in the directory I gave.
 
@@ -17,24 +19,28 @@ In this second image, I searched for all the directory types (`-type d`) in the 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash")
 
 
-### `-maxdepth` Command-Line Option
----
+## `-maxdepth` Command-Line Option
+
 The `-maxdepth` command allows the user to limit the depth of the search.
+
+This is useful because it allows the user to only search for files within a few specified directories, and not in subdirectories that are deeper than a certain level.
 
 In this first image, I only searched for the directories that had a max depth of 2 relative to `stringsearch`.
 
 <img width="348" alt="Screenshot 2023-05-05 011215" src="https://user-images.githubusercontent.com/88350907/236408386-e0f9329d-bbc0-453a-b436-2006e21ffa23.png">
 
-In this second image, I only searched for the text files that had a max depth of 3 relative to `stringsearch`.
+In this second image, I only searched for the *text* files that had a max depth of 3 relative to `stringsearch`.
 
 <img width="431" alt="Screenshot 2023-05-05 011241" src="https://user-images.githubusercontent.com/88350907/236408424-cf5dd454-9e1a-4f3d-a31a-515160a68241.png">
 
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
 
 
-### `-size` Command-Line Option
----
+## `-size` Command-Line Option
+
 The `-size` command allows the user to search for files by size.
+
+This is useful because it allows the user to search for small, medium, or large files and determine if they want to keep them or not.
 
 In this first image, I searched for all files with a size of exactly 2 bytes. 
 
@@ -47,9 +53,11 @@ In this second image, I searched for all files with a size of less than 3 kiloby
 (Source: ChatGPT. I asked "can you tell me some command-line options using the command -find in bash") 
 
 
-### `-delete` Command-Line Option
----
+## `-delete` Command-Line Option
+
 The `-delete` command allows the user to delete all files or directories that match the search criteria.
+
+This is useful because it allows the user to free up disk space by removing files that they don't need or that are too large. It also allows them to delete a  group of files quickly by giving a specific criteria.
 
 In this first image, I searched for all the text files within the `biomed` directory and deleted them.
 
