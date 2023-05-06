@@ -58,6 +58,7 @@ In this second image, I searched for all files with a size of less than 3 kiloby
 The `-delete` command allows the user to delete all files or directories that match the search criteria.
 
 This is useful because it allows the user to free up disk space by removing files that they don't need or that are too large. 
+
 It also allows them to delete a  group of files quickly by giving a specific criteria.
 
 In this first image, I searched for all the text files within the `biomed` directory and deleted them.
