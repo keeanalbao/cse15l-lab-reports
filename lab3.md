@@ -4,11 +4,10 @@
 
 ##  `-type` Command-Line Option
 
-The `-type` command allows the user to search for files by type. 
-
-This is useful because it allows the user to perform actions within their desired directory on just the types they specify. 
+The `-type` command allows the user to search for files/directories by type. 
 
 In this first codeblock, I searched for all the file types (`-type f`) in the directory I gave.
+This is useful because it allows the user to only search for the *files* of a particular directory, which can get more specific if desired. 
 
 ```
 [cs15lsp23ln@ieng6-202]:~:444$ find stringsearch/stringsearch-data/technical/911report/ -type f
@@ -33,6 +32,7 @@ stringsearch/stringsearch-data/technical/911report/preface.txt
 ```
 
 In this second codeblock, I searched for all the directory types (`-type d`) in the directory I gave.
+This is useful because it allows the user to only search for the *directories* of a particular path, which can get more specific if desired.
 
 ```
 [cs15lsp23ln@ieng6-202]:~:445$ find stringsearch/ -type d
@@ -93,9 +93,8 @@ stringsearch/stringsearch-data/technical/plos
 
 The `-maxdepth` command allows the user to limit the depth of the search.
 
-This is useful because it allows the user to only search for files within a few specified directories, and not in subdirectories that are deeper than a certain level.
-
 In this first codeblock, I only searched for the directories that had a max depth of 2 relative to `stringsearch`.
+This is useful because it allows the user to only search for paths that weren't any deeper than desired, which can help searching for files/directories easier.
 
 ```
 [cs15lsp23ln@ieng6-202]:~:446$ find stringsearch/ -maxdepth 2
@@ -122,6 +121,7 @@ stringsearch/stringsearch-data/technical
 ```
 
 In this second codeblock, I only searched for the *text* files that had a max depth of 3 relative to `stringsearch`.
+This is useful because it allows the user to only search for paths that weren't any deeper than desired and that had a specific name, making it easier to search for.
 
 ```
 [cs15lsp23ln@ieng6-202]:~:447$ find stringsearch/ -maxdepth 3 -name "*.txt"
@@ -136,9 +136,8 @@ stringsearch/words.txt
 
 The `-size` command allows the user to search for files by size.
 
-This is useful because it allows the user to search for small, medium, or large files and determine if they want to keep them or not.
-
 In this first codeblock, I searched for all files with a size of exactly 2 bytes. 
+This is useful because it allows the user to quickly search for files of an exact size and determine if they want to keep them or not.
 
 ```
 [cs15lsp23ln@ieng6-202]:~:448$ find stringsearch/stringsearch-data/technical/ -size 2b 
@@ -148,6 +147,7 @@ stringsearch/stringsearch-data/technical/plos/pmed.0020226.txt
 ```
 
 In this second codeblock, I searched for all files with a size of less than 3 kilobytes.
+This is useful because it allows the user to quickly search for files of a maximum size and determine if they want to keep them or not.
 
 ```
 [cs15lsp23ln@ieng6-202]:~:449$ find stringsearch/stringsearch-data/technical/ -size -3k
@@ -178,9 +178,8 @@ stringsearch/stringsearch-data/technical/plos/pmed.0020226.txt
 
 The `-delete` command allows the user to delete all files or directories that match the search criteria.
 
-This is useful because it allows the user to free up disk space by removing files that they don't need or that are too large. It also allows them to delete a  group of files quickly by giving a specific criteria.
-
-In this first codeblock, I searched for all the text files within the `911report` directory and deleted them.
+In this first codeblock, I searched for all the *text* files within the `911report` directory and deleted them.
+This is useful because it allows the user to remove an entire directory that they don't need, which also frees up disk space. 
 
 *Before:*
 
@@ -202,6 +201,8 @@ chapter-10.txt  chapter-12.txt  chapter-13.2.txt  chapter-13.4.txt  chapter-2.tx
 ```
 
 In this second codeblock, I searched for all the files that started with `pmed` within the `plos` directory and deleted them.
+This is useful because it allows the user to remove files that they don't need, which also frees up disk space. 
+It also allows them to delete a group of files quickly by giving a specific criteria.
 
 *Before:*
 
