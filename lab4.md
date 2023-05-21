@@ -7,8 +7,9 @@ For this step, I typed `ssh cs15lsp23ln@ieng6.ucsd.edu`, `<enter>`, my password,
 
 
 ## Step 2: Clone your fork of the repository from your GitHub account
-For this step, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed
-`git clone https://github.com/keeanalbao/lab7.git` (using `<ctrl-v>` for the URL), and then `<enter>` into the command line.
+For this step, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed `git clone https://github.com/keeanalbao/lab7.git`
+(using `<ctrl-v>` for the URL), and then `<enter>` into the command line. This cloned the repository 
+into my ssh account.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/053e51ef-6013-4988-88cd-bd77ec4e4a8f)
 
