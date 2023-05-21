@@ -27,22 +27,29 @@ For this step, I typed `vim L` and `<tab>` to autocomplete to `vim ListExamples`
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/c0329795-bbf9-4f3c-ad6a-131bb1c20d86)
 
-Next, I 
+Next, the cursor was already on top of the `1` that I needed to change in ListExamples, so I simply typed `x` to delete the `1`.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/b4aa4512-5580-4393-8151-5a04fa660eac)
 
-
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/4310cd43-08ef-49a0-812c-22e9c818457a)
 
+I then pressed `i` to enter insert mode in Vim, and typed `2` to correct the error.
+
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/aefc96d2-7ca3-4e44-a4fc-8c1221508d02)
+
+Finally, I pressed the `<esc>` key to switch back to normal mode in Vim, and then typed `:wq` to exit Vim and save the file.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/cf391cf6-ce98-43e3-8d32-6b40f8869bf1)
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
+For this step, I reran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again.
+
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/043a5cdc-1047-40ac-bd99-3108de6051c8)
 
 
 ## Step 9: Commit and push the resulting change to your Github account
+For this final step, I typed `git add`
+
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/217c8afe-8945-486d-a099-556e02d8052a)
 
