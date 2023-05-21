@@ -1,12 +1,12 @@
 # Lab Report 4
 
-## Step 4: Log into ieng6
+## Step 1: Log into ieng6
 For this step, I typed `ssh cs15lsp23ln@ieng6.ucsd.edu`, `<enter>`, my password, and `<enter>` again to log into ieng6.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/b3256b80-fae4-4031-963e-8a04b8a96619)
 
 
-## Step 5: Clone your fork of the repository from your Github account
+## Step 2: Clone your fork of the repository from your Github account
 For this step, I copied the HTTPS URL of the lab7 fork from my GitHub account, typed
 `git clone https://github.com/keeanalbao/lab7.git` (using `<ctrl-v>` for the URL), and then `<enter>` into the command line.
 
@@ -15,14 +15,14 @@ For this step, I copied the HTTPS URL of the lab7 fork from my GitHub account, t
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/8dab1ac0-2562-4d35-9a0c-13bc4fab9551)
 
 
-## Step 6: Run the tests, demonstrating that they fail
+## Step 3: Run the tests, demonstrating that they fail
 For this step, I changed to the lab7 directory by typing `cd l`, pressing `<tab>` to autocomplete it, and pressing `<enter>`. I then typed `ls` and `<enter>`
 to list all the files/directories in lab7. Finally, I typed `bash t`, `<tab>` to autocomplete to `bash test.sh`, and pressed `<enter>`, which ran the tests.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/f33afaaf-5885-491f-898d-f845b368fd6b)
 
 
-## Step 7: Edit the code file to fix the failing test
+## Step 4: Edit the code file to fix the failing test
 For this step, I typed `vim L` and `<tab>` to autocomplete to `vim ListExamples`, then typed `.java` at the end, and finally pressed `<enter>`.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/c0329795-bbf9-4f3c-ad6a-131bb1c20d86)
@@ -42,13 +42,13 @@ Finally, I pressed the `<esc>` key to switch back to normal mode in Vim, and the
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/cf391cf6-ce98-43e3-8d32-6b40f8869bf1)
 
 
-## Step 8: Run the tests, demonstrating that they now succeed
+## Step 5: Run the tests, demonstrating that they now succeed
 For this step, I re-ran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/043a5cdc-1047-40ac-bd99-3108de6051c8)
 
 
-## Step 9: Commit and push the resulting change to your Github account
+## Step 6: Commit and push the resulting change to your Github account
 For this final step, I typed `git add L` then pressed `<tab>` to autocomplete to `git add ListExamples`, then typed `.java` at the end and pressed `<enter>`.
 I then typed `git commit -m "changes"` and pressed `<enter>`. Finally, I typed `git push` and `<enter>`, my username `keeanalbao` and `<enter>`, and my GitHub password
 and `<enter>`.
