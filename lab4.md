@@ -18,17 +18,20 @@ into my ssh account.
 
 ## Step 3: Run the tests, demonstrating that they fail
 For this step, I changed to the lab7 directory by typing `cd l`, pressing `<tab>` to autocomplete it, and pressing `<enter>`. I then typed `ls` and `<enter>`
-to list all the files/directories in lab7. Finally, I typed `bash t`, `<tab>` to autocomplete to `bash test.sh`, and pressed `<enter>`, which ran the tests.
+to list all the files/directories in lab7. Finally, I typed `bash t`, `<tab>` to autocomplete to `bash test.sh`, and pressed `<enter>`, which ran the tests
+(and showed that they failed).
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/f33afaaf-5885-491f-898d-f845b368fd6b)
 
 
 ## Step 4: Edit the code file to fix the failing test
 For this step, I typed `vim L` and `<tab>` to autocomplete to `vim ListExamples`, then typed `.java` at the end, and finally pressed `<enter>`.
+This opens Vim and the file that needs to be edited in the terminal.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/c0329795-bbf9-4f3c-ad6a-131bb1c20d86)
 
-Next, the cursor was already on top of the `1` that I needed to change in ListExamples, so I simply typed `x` to delete the `1`.
+Next, the cursor was already on top of the `1` that I needed to change in ListExamples, so I simply typed `x` to delete the `1`. 
+This was done in Vim's normal mode.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/b4aa4512-5580-4393-8151-5a04fa660eac)
 
@@ -44,15 +47,16 @@ Finally, I pressed the `<esc>` key to switch back to normal mode in Vim, and the
 
 
 ## Step 5: Run the tests, demonstrating that they now succeed
-For this step, I re-ran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again.
+For this step, I re-ran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again, this time showing that the tests passed.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/043a5cdc-1047-40ac-bd99-3108de6051c8)
 
 
 ## Step 6: Commit and push the resulting change to your Github account
 For this final step, I typed `git add L` then pressed `<tab>` to autocomplete to `git add ListExamples`, then typed `.java` at the end and pressed `<enter>`.
-I then typed `git commit -m "changes"` and pressed `<enter>`. Finally, I typed `git push` and `<enter>`, my username `keeanalbao` and `<enter>`, and my GitHub password
-and `<enter>`.
+This git action tracks the file so that when git commit is called, it knows which one(s) to include.
+I then typed `git commit -m "changes"` and pressed `<enter>`. This git action records the repository changes. 
+Finally, I typed `git push` and `<enter>`, my username `keeanalbao` and `<enter>`, and my GitHub password and `<enter>`. This does the action of updating the commit changes and sending it to the remote repository.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/217c8afe-8945-486d-a099-556e02d8052a)
 
