@@ -43,13 +43,15 @@ Finally, I pressed the `<esc>` key to switch back to normal mode in Vim, and the
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
-For this step, I reran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again.
+For this step, I re-ran the tests by pressing `<up><up>` and then `<enter>` to run `bash test.sh` again.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/043a5cdc-1047-40ac-bd99-3108de6051c8)
 
 
 ## Step 9: Commit and push the resulting change to your Github account
-For this final step, I typed `git add`
+For this final step, I typed `git add L` then pressed `<tab>` to autocomplete to `git add ListExamples`, then typed `.java` at the end and pressed `<enter>`.
+I then typed `git commit -m "changes"` and pressed `<enter>`. Finally, I typed `git push` and `<enter>`, my username `keeanalbao` and `<enter>`, and my GitHub password
+and `<enter>`.
 
 ![](https://github.com/keeanalbao/cse15l-lab-reports/assets/88350907/217c8afe-8945-486d-a099-556e02d8052a)
 
