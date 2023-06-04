@@ -64,3 +64,5 @@ To fix this bug, you need to change the line containing the first if statement: 
 
 
 ## 5. Reflection
+
+Something new that I learned in the second half of this quarter was Vim. I have never used Vim before much less even heard of it. It is a very unique programming language and text editor, and I wouldn't say I loved it, but I did find it very interesting and useful for the last few labs. I'm not sure how often I will use Vim in the future, but I'm glad I got to learn the basics of it in case I do use it.
